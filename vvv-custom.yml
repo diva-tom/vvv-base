@@ -1,0 +1,23 @@
+--- 
+sites: 
+  mysite: 
+    custom: 
+      admin_email: admin@localhost.dev
+      admin_password: password
+      admin_user: admin
+      db_prefix: wp_
+      delete_default_plugins: true
+      delete_default_themes: true
+      htdocs: "https://github.com/salcode/example-project-w-gitignore.git"
+      locale: en_GB
+      multisite: false
+      themes: 
+        - twentyeleven
+      title: "Site Title"
+      version: latest
+      wp: true
+      wp_content: "https://github.com/jquery/jquery-wp-content.git"
+      xipio: false
+    hosts: 
+      - mysite.local
+    repo: "https://github.com/JPry/vvv-base.git"
